@@ -24,4 +24,45 @@ An extension includes EV charging, ensuring the required energy is delivered bef
 
 1. Open MATLAB
 2. Navigate to the project folder
-3. Run:
+3. Run: EGS_Coursework.m
+
+---
+
+## Key Features
+
+- Energy balance enforced at every timestep
+- Battery SOC modelling with efficiency losses
+- Tariff-aware decision-making
+- EV charging scheduling with constraints
+- Verification checks:
+  - Energy balance residual
+  - SOC bounds
+  - Power limits
+  - EV energy delivery
+  - End-of-horizon SOC
+
+---
+
+## Data
+
+- `caseA_data.csv` – Household load, PV generation, tariffs
+- `caseA_ev_events.csv` – EV arrival, departure, required energy, max power
+
+---
+
+## Results
+
+Outputs include:
+- SOC profiles
+- PV vs Load comparison
+- Grid import/export
+- Cost analysis
+
+Results correspond directly to those presented in the coursework report.
+
+---
+
+## Author
+
+Jake Jeffries  
+K23083637
